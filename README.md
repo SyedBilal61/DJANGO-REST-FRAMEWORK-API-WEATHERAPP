@@ -28,7 +28,7 @@ pip install -r requirements.txt
 3.  Run the Django development server:
 
 python manage.py runserver
-
+# After running this command you will find a link in your terminal (for instance like this http://127.0.0.1:8000/) just copy paste it any your chrome browser and put any city name in the button and submit you will find the required results 
 
 **Usage**
 Checking Weather: Enter the name of a city in the input field and click "Check" to get the current weather forecast.

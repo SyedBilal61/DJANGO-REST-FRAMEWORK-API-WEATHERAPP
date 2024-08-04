@@ -28,18 +28,24 @@ pip install -r requirements.txt
 3.  Run the Django development server:
 
 python manage.py runserver
+
+
 **Usage**
 Checking Weather: Enter the name of a city in the input field and click "Check" to get the current weather forecast.
 Viewing Results: The weather information will be displayed below the input form, including a description, icon, temperature, date, and city name.
+
 **API Endpoints**
 GET /weather: Retrieve the current weather for a specified city.
 POST /weather: Submit a new weather query.
+
 **Project Structure**
 index.html: The main HTML file for the frontend interface.
 views.py: Contains the logic for handling user requests and interacting with the API.
 urls.py: Routes requests to the appropriate view functions.
+
 **Contributing**
 Feel free to open issues or submit pull requests if you have suggestions or improvements.
+
 
 **Contact**
 For any questions or feedback, please reach out to bilalkazmi61.bk@gmail.com.

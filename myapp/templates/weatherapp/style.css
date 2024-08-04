@@ -1,0 +1,43 @@
+.weather-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+}
+
+.weather-info .card {
+    border: none;
+}
+
+.weather-info .card-body {
+    padding: 20px;
+}
+
+.weather-info .weather-card {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for each card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for items */
+    margin-bottom: 15px;
+}
+
+.weather-info h2 {
+    margin: 10px 0;
+    font-size: 1.25rem;
+    color: #343a40; /* Dark text color */
+}
+
+.weather-info h4 {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #495057; /* Slightly lighter text color */
+}
+
+.weather-info .weather-icon {
+    max-width: 100px; /* Adjust icon size */
+    height: auto;
+    margin-top: 10px;
+}
